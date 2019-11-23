@@ -40,6 +40,10 @@ class Artist
     @@all << self     
   end
   
+  def songs(name)
+    name
+  end
+  
   def print_songs
     @songs.collect {|song| song.name}
     self.songs
